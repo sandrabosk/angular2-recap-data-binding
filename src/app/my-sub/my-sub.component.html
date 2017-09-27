@@ -1,0 +1,25 @@
+<!-- <div class="">
+  <label for="">Student's name:</label>
+  <input  [(ngModel)]="student.name" type="text" name="" value="">
+  <label for="">Department:</label>
+  <input  [(ngModel)]="student.department" type="text" name="" value="">
+</div>
+
+<div class="">
+  <p>Hey {{student.name}}. How do you like your {{ student.department }} course so far?</p>
+</div>
+<hr>
+<input (keyup)="onKey($event)" /> -->
+<div class="">
+  <label for="">Student's name:</label>
+  <input [(ngModel)]="student.name" />
+  <label for="">Department:</label>
+  <input [(ngModel)]="student.department" />
+
+</div>
+
+<div class="">
+  <p>Hey {{ student.name }}. How's your {{ student.department }} course so far?</p>
+</div>
+
+<input  (keyup)="onKey($event)" type="text" name="" value="">
