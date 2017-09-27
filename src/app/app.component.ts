@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   myString='This is string'
+
+ninja={
+  name:"Ryu",
+  belt:"red"
+}
+
 }

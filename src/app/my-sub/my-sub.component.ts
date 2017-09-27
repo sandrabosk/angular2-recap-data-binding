@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-my-sub',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-sub.component.css']
 })
 export class MySubComponent implements OnInit {
-
+@Input() player;
   student={
     name:'Marisa',
     department:'Web Dev'

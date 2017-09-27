@@ -4,6 +4,7 @@
   <input type="text" name="" value="{{ myInputValue }}">
 
   <button (click)="ShootAnAlert('I love you!')" >Click me</button>
-
-</p>
-<app-my-sub></app-my-sub>
+</p><hr><hr>
+<p>{{ ninja.name}} has {{ ninja.belt }} belt.</p>
+<hr><hr>
+<app-my-sub [player]="player"></app-my-sub>

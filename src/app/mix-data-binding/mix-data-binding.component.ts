@@ -12,8 +12,8 @@ export class MixDataBindingComponent implements OnInit {
     this.isInputDisabled = !this.isInputDisabled;
   }
 
-  onKey(value){
-    console.log(`Input value is: ${ value }`)
+  onKey(val){
+    console.log(`Input value is: ${ val }`)
   }
 
   constructor() { }
